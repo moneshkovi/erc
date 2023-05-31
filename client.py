@@ -20,7 +20,7 @@ def run_text(text: str, url_emoberta: str) -> None:
     Args
     ----
     text: raw text
-    url_emoberta: e.g., http://127.0.0.1:10006/
+    url_emoberta: e.g., http://127.0.0.1:10006/          
 
     """
     data = {"text": text}
