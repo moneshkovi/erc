@@ -29,7 +29,7 @@ def main(
     num_past_utterances: int,
     num_future_utterances: int,
     NUM_TRAIN_EPOCHS: int,
-    WEIGHT_DECAY: float,
+    WEIGHT_DECAY: float,    
     WARMUP_RATIO: float,
     **kwargs,
 ):
@@ -100,7 +100,7 @@ def main(
         speaker_mode=speaker_mode,
         num_past_utterances=num_past_utterances,
         num_future_utterances=num_future_utterances,
-        model_checkpoint=model_checkpoint,
+        model_checkpoint=model_checkpoint,   
         ROOT_DIR=ROOT_DIR,
         SEED=SEED,
     )
