@@ -39,7 +39,7 @@ def main(
     logging.info(
         f"automatic hyperparameter tuning with speaker_mode: {speaker_mode}, "
         f"num_past_utterances: {num_past_utterances}, "
-        f"num_future_utterances: {num_future_utterances}"
+        f"num_future_utterances: {num_future_utterances}"   
     )
     CURRENT_TIME = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
@@ -67,7 +67,7 @@ def main(
             [
                 "python3",
                 "train-erc-text-full.py",
-                "--OUTPUT-DIR",
+                "--OUTPUT-DIR",    
                 OUTPUT_DIR,
                 "--SEED",
                 str(SEED),
