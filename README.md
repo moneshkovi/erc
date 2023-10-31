@@ -91,16 +91,4 @@ will give you:
     "disgust": 0.001495996,
     "fear": 0.0014167271
 }
-Check out the [paper](https://arxiv.org/abs/2108.12009).
 
-```bibtex
-@misc{kim2021emoberta,
-      title={EmoBERTa: Speaker-Aware Emotion Recognition in Conversation with RoBERTa}, 
-      author={Taewoon Kim and Piek Vossen},
-      year={2021},
-      eprint={2108.12009},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
-[MIT](https://choosealicense.com/licenses/mit/)
